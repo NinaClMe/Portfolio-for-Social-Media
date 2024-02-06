@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./my-class-content.css" />
+    <script src="./my-class.js"></script>
+  </head>
+  <body>
+    <header>
+      <a title="Home page" href="index.html" class="left-icon">🏠</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="curriculumVitae.html">My Curriculum vitae</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="my-class-content.html">My Class content</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2 style="color: #b8ec9c">About me</h2>
+        <img src="pictures/f46fc4b6.jpg" alt="Porträt" style="height: 180px; float: right"> 
+        <!-- Orner muss in dem frontend Ordner sein und nicht als extra Ordner -->
+        <p>I´m Nina, 22 years old and study "Art and Multimedia" in my first semster at LMU Munich.</p>
+        <p>In my free time I dance with the Perchalla carnival company.</p>
+        <p>I also do volunteer work, I look after young people and teach them how to lead groups.
+        Aside from that I´m at UniKult and take care of the design there.</p>
+        <p>If you have any further questions, feel free to send me an E-Mail.</p>
+        <a href="mailto:nina_menzl@yahoo.de" style="color: #b8ec9c">nina_menzl@yahoo.de</a>
+      </aside>
+
+      <section id="background">
+        <h1 style="background-color: #f0f0f8; opacity: 0.8; width: fit-content;">My Class content</h1>
+
+        <table id="classContentTable">
+          <thead id="classContentHead">
+            <tr>
+              <th>Date</th>
+              <th>Topics</th>
+            </tr>
+          </thead>
+          <tbody id="classContentBody">
+            <tr>
+              <td>17.10.2023</td>
+              <td><nav><a href="class1.html" style="color: #9cc585">First class: Key Concepts</a></nav></td>
+            </tr>
+            <tr>
+              <td>24.10.2023</td>
+              <td><nav><a href="class2.html" style="color: #9cc585">Second class: Platform Architecture and Infrastructure</a></nav></td>
+            </tr>
+            <tr>
+              <td>31.10.2023</td>
+              <td><nav><a href="class3.html" style="color: #9cc585">Third class: Frontend Development</a></nav></td>
+            </tr>
+            <tr>
+              <td>07.11.2023</td>
+              <td><nav><a href="class4.html" style="color: #9cc585">Fourth class: Frontend Development</a></nav></td>
+            </tr>
+            <tr>
+              <td>14.11.2023</td>
+              <td><nav><a href="class5.html" style="color: #9cc585">Fifth class: Frontend Development</a></nav></td>
+            </tr>
+            <tr>
+              <td>21.11.2023</td>
+              <td><nav><a href="class6.html" style="color: #9cc585">Sixth class: Backend Development</a></nav></td>
+            </tr>
+            <tr>
+              <td>28.11.2023</td>
+              <td><nav><a href="class7.html" style="color: #9cc585">Seventh class: Backend Development</a></nav></td>
+            </tr>
+            <tr>
+              <td>05.12.2023</td>
+              <td><nav><a href="class8.html" style="color: #9cc585">Eighth class: Backend Development</a></nav></td>
+            </tr>
+            <tr>
+              <td>12.12.2023</td>
+              <td><nav><a href="class9.html" style="color: #9cc585">Ninth class: Backend Development</a></nav></td>
+            </tr>
+            <tr>
+              <td>09.01.2024</td>
+              <td><nav><a href="class10.html" style="color: #9cc585">Tenth class: Data Storage and Databases</a></nav></td>
+            </tr>
+            <tr>
+              <td>16.01.2024</td>
+              <td><nav><a href="class11.html" style="color: #9cc585">Eleventh class: Full web application (study case)</a></nav></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <center>&copy; 2023 LMU Students.</center>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./classes.css" />
+    <script src="./my-class.js"></script>
+  </head>
+  <body>
+    <header>
+      <a title="Home page" href="index.html" class="left-icon">🏠</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="curriculumVitae.html">My Curriculum vitae</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="my-class-content.html">My Class content</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2 style="color: #b8ec9c">About me</h2>
+        <img src="pictures/f46fc4b6.jpg" alt="Porträt" style="height: 180px; float: right"> 
+        <!-- Orner muss in dem frontend Ordner sein und nicht als extra Ordner -->
+        <p>I´m Nina, 22 years old and study "Art and Multimedia" in my first semster at LMU Munich.</p>
+        <p>In my free time I dance with the Perchalla carnival company.</p>
+        <p>I also do volunteer work, I look after young people and teach them how to lead groups.
+        Aside from that I´m at UniKult and take care of the design there.</p>
+        <p>If you have any further questions, feel free to send me an E-Mail.</p>
+        <a href="mailto:nina_menzl@yahoo.de" style="color: #b8ec9c">nina_menzl@yahoo.de</a>
+      </aside>
+
+      <section>
+        <nav><i><a href="my-class-content.html" style="color: #6c875d" class="left-icon">🔙 My Class content </a></i></nav>
+        <h1>Sixth class: Backend Development</h1>
+        <ul>
+          <li>Application Programming Interfaces - APIs</li>
+          <li>Backend development</li>
+          <li>LinkedIn study case</li>
+        </ul>
+        <br>
+        <h3>Application Programming Interfaces - APIs</h3>
+        <img src="pictures/6.APIs.png" alt="APIs" style="height: 400px; float: right;">
+        <p> An Application Programming Interface (API) is a set of rules and protocols that allows different 
+          software applications to communicate with each other. It defines the methods and data formats that 
+          applications can use to request and exchange information. APIs are fundamental in enabling the 
+          integration of different systems, services and applications.
+          <br><br>
+          <b>Endpoints:</b> An API consists of endpoints, which are specific URLs or URIs (Uniform Resource 
+          Identifiers) that applications can use to interact with the API. Each endpoint represents a specific 
+          functionality or resource provided by the API.
+          <br><br>
+          <b>HTTP Methods:</b> APIs often use standard HTTP methods, such as GET, POST, PUT and DELETE, to 
+          define the type of operation to be performed on a resource. For example, a GET request might retrieve 
+          data, while a POST request might create a new resource.
+          <br><br>
+          <b>Request and Response:</b> API communication involves sending requests from a client (requesting 
+          application) to a server (providing application) and receiving responses. Requests contain 
+          information like the method, endpoint and sometimes data, while responses include the requested 
+          data or an indication of the operation's success or failure.
+          <br><br>
+          <b>Authentication:</b> APIs often require authentication to ensure that only authorized users or 
+          applications can access the provided resources. Common authentication mechanisms include API keys, 
+          OAuth tokens and username/password combinations.
+          <br><br>
+          <b>Data Formats:</b> APIs use specific data formats to structure information in requests and 
+          responses. Common formats include JSON (JavaScript Object Notation) and XML (eXtensible Markup Language).
+          <br><br>
+          <b>Rate Limiting:</b> To prevent abuse and ensure fair usage, APIs may implement rate limiting, 
+          restricting the number of requests a client can make within a specific time frame.
+          <br><br>
+          <b>Documentation:</b> API documentation is essential for developers to understand how to use the API, 
+          including available endpoints, required parameters, authentication methods and response formats.
+          <br><br>
+          <b><u>Types of APIs:</u></b>
+          <br>
+          <b>Web APIs (RESTful APIs):</b> Web APIs, often based on REST (Representational State Transfer) 
+          principles, use standard HTTP methods and are widely used for web development. They provide a 
+          stateless communication model.
+          <br>
+          <b>SOAP APIs:</b> Simple Object Access Protocol (SOAP) APIs use XML for message formatting and 
+          are known for their strict standards and protocol.
+          <br>
+          <b>GraphQL APIs:</b> GraphQL is a query language and runtime for APIs that allows clients to 
+          request exactly the data they need.
+          <br><br>
+          APIs are crucial for building interconnected and interoperable systems. They facilitate the 
+          development of third-party integrations, mobile app connections and the creation of composite 
+          applications by leveraging the functionalities of existing software or services.</p>
+        <p><u>Helpful Web-Site:</u></p>
+        <a href="https://www.youtube.com/watch?v=ByGJQzlzxQg" style="color: #6c875d"><b>What is an API (YouTube Video)</b></a>
+        <br><br>
+        <h3>Backend development</h3>
+        <p>Backend development involves designing, building and maintaining the <b>server-side logic, <br>
+          databases,</b> and application <b>infrastructure</b> that empower the <b>functionality</b> and 
+          <b>data management</b> <br> of web and mobile applications.
+        </p>
+        <p>It refers to the server-side of web development, where the logic, databases and server 
+          take care of the functionalities that happen behind the scenes. <br>
+          Here are some of the main components:
+          <br><br>
+          <b>Server:</b> This is essentially a powerful computer that stores the data and serves it to clients 
+          upon request. It runs the backend application, receiving and processing requests.
+          <br><br>
+          <b>Database:</b> Information needs to be stored somewhere. The database is where data is organized and 
+          retrieved. There are various types of databases like MySQL, PostgreSQL, MongoDB, etc.
+          <br><br>
+          <b>Application Logic:</b> This is the core of the backend. It contains the code responsible for handling
+          requests, processing data and interacting with the database. It often involves programming languages 
+          like Python, Ruby, Java or Node.js.
+          <br><br>
+          <b>APIs (Application Programming Interfaces):</b> These are the means by which the frontend and backend 
+          communicate. The backend provides a set of APIs that the frontend can call to request or send data.
+          <br><br>
+          <b>Authentication and Authorization:</b> Backend systems often involve user data. So, there's a need 
+          for mechanisms to authenticate (verify the identity) and authorize (grant or deny access) users.
+          <br><br>
+          <b>Security:</b> Ensuring the security of data and the backend system is crucial. This involves 
+          encryption, secure protocols and protecting against common web vulnerabilities.
+          <br><br>
+          Backend development is essentially about making sure the server, database and application work 
+          seamlessly to provide the desired functionality. It's like the engine of a car, it's the powerhouse 
+          that makes everything run smoothly.</p>
+        <br>
+        <h3>LinkedIn study case</h3>
+        <img src="pictures/6.LinkedIn study case.png" alt="LinkedIn Study case" style="height: 600px; float: left;">
+      </section>
+    </main>
+
+    <footer>
+      <center>&copy; 2023 LMU Students.</center>
+    </footer>
+  </body>
+</html>

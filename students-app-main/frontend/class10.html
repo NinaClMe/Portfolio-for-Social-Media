@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./classes.css" />
+    <script src="./my-class.js"></script>
+  </head>
+  <body>
+    <header>
+      <a title="Home page" href="index.html" class="left-icon">🏠</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="curriculumVitae.html">My Curriculum vitae</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="my-class-content.html">My Class content</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2 style="color: #b8ec9c">About me</h2>
+        <img src="pictures/f46fc4b6.jpg" alt="Porträt" style="height: 180px; float: right"> 
+        <!-- Orner muss in dem frontend Ordner sein und nicht als extra Ordner -->
+        <p>I´m Nina, 22 years old and study "Art and Multimedia" in my first semster at LMU Munich.</p>
+        <p>In my free time I dance with the Perchalla carnival company.</p>
+        <p>I also do volunteer work, I look after young people and teach them how to lead groups.
+        Aside from that I´m at UniKult and take care of the design there.</p>
+        <p>If you have any further questions, feel free to send me an E-Mail.</p>
+        <a href="mailto:nina_menzl@yahoo.de" style="color: #b8ec9c">nina_menzl@yahoo.de</a>
+      </aside>
+
+      <section>
+        <nav><i><a href="my-class-content.html" style="color: #6c875d" class="left-icon">🔙 My Class content</a></i></nav>
+        <h1>Tenth class: Data Storage and Databases</h1>
+        <ul>
+          <li>Data Storage</li>
+          <li>Databases</li>
+          <li>Types of database</li>
+          <li>Buzzword Definitions</li>
+        </ul>
+        <h3>Data Storage</h3>
+        <img src="pictures/10.Datastorage-Bild1.png" alt="Hard disc drive" style="height: 250px; float: right;">
+        <p><b>Data storage</b> refers to the physical or digital means of preserving and retaining data for 
+          future use. It is the broader concept that encompasses various methods and technologies for storing data.
+          <br>
+          It can include a wide range of storage technologies, such as hard disk drives (HDDs), solid-state 
+          drives (SSDs), cloud storage, tape storage, optical storage and more.
+        </p>
+        <p>Data storage refers to the methods and technologies used to store and manage digital information. 
+          It is a fundamental aspect of computing and is essential for preserving, retrieving and 
+          manipulating data.<br><br>
+          <b>Types of Data Storage:</b><br>
+          <u>Primary Storage (RAM):</u> <br>
+          Also known as random-access memory, RAM is volatile memory used by computers to store data that is 
+          actively being used or processed. It loses its content when the power is turned off.
+          <br><br>
+          <u>Secondary Storage (Permanent Storage):</u> <br>
+          This includes non-volatile storage devices used for long-term data storage. Examples include hard 
+          disk drives (HDDs), solid-state drives (SSDs), optical discs and USB drives.
+          <br><br>
+          <img src="pictures/10.Datastorage-Bild2.png" alt="Flash memory" style="height: 250px; float: right;">
+          <b>Hard Disk Drives (HDDs):</b><br>
+          HDDs use magnetic storage to store data on spinning disks.<br>
+          They are cost-effective for large storage capacities but may be slower than SSDs.
+          <br><br>
+          <b>Solid-State Drives (SSDs):</b><br>
+          SSDs use flash memory to store data, providing faster read and write speeds compared to HDDs.<br>
+          They are commonly used for faster access to frequently used data.
+          <br><br>
+          <b>Cloud Storage:</b><br>
+          Cloud storage involves storing data on remote servers accessed over the internet.<br>
+          Services like Amazon S3, Google Cloud Storage and Microsoft Azure offer scalable and flexible 
+          cloud storage solutions.
+          <br><br>
+          <b>Database Systems:</b><br>
+          Database systems, such as MySQL, PostgreSQL, MongoDB and others, are used to organize and manage 
+          structured data.<br>
+          They provide efficient ways to query and retrieve information.
+          <br><br>
+          <img src="pictures/10.Datastorage-Bild3.png" alt="RAM memory" style="height: 150px; float: right;">
+          <b>Data Centers:</b><br>
+          Large-scale data storage often involves data centers, which are facilities housing a large number 
+          of servers and storage devices.<br>
+          Data centers provide the infrastructure for hosting and managing vast amounts of digital data.
+          <br><br>
+          <b>Backup and Redundancy:</b><br>
+          Backup strategies involve creating duplicate copies of data to prevent loss in case of hardware 
+          failure, data corruption or other issues.<br>
+          Redundancy ensures that critical data is stored in multiple locations or on multiple devices to 
+          enhance reliability.
+          <br><br>
+          <b>Data Retrieval and Accessibility:</b><br>
+          Accessibility refers to the ease with which data can be retrieved and used.<br>
+          Fast retrieval and low latency are crucial for applications and systems that require real-time access 
+          to data.<br><br>
+          It solutions are diverse and tailored to specific needs, ranging from personal devices 
+          to enterprise-level systems. Advances in technology continue to influence the landscape of data 
+          storage, introducing innovations such as distributed storage, object storage and more.
+        </p>
+        <br>
+        <h3>Databases</h3>
+        <img src="pictures/10.Database-Bild1.png" alt="Database-Bild1" style="height: 250px; float: right;">
+        <p>Databases are organized collections of data that are structured in a way that facilitates efficient 
+          storage, retrieval and management. They serve as a centralized repository for storing and organizing 
+          information, making it easy to access and manipulate.
+          <br><br>
+          <b>Structured Data Storage:</b>
+          Databases store data in a structured format, using tables with rows and columns.<br>
+          Each column represents a specific attribute and each row contains a unique record.
+          <br><br>
+          <b>Relational Databases:</b>
+          Relational databases, such as MySQL, PostgreSQL and Oracle, use tables with predefined relationships 
+          between them.<br>
+          They support complex queries and ensure data integrity through constraints.
+          <br><br>
+          <b>NoSQL Databases:</b>
+          NoSQL databases, like MongoDB and Cassandra, are non-relational and offer flexibility in handling 
+          unstructured or semi-structured data.<br>
+          They are suitable for scenarios with dynamic or evolving data requirements.
+          <br><br>
+          <b>Database Management Systems (DBMS):</b>
+          DBMS is software that provides an interface to interact with databases.<br>
+          It handles tasks like data storage, retrieval and management, as well as ensuring data consistency 
+          and security.
+          <br><br>
+          <b>Queries and Transactions:</b>
+          Users can query databases to retrieve specific information using languages like SQL (Structured Query 
+          Language).<br>
+          Transactions ensure that multiple database operations are executed as a single, atomic unit, 
+          ensuring data consistency.
+          <br><br>
+          <b>Indexes and Performance Optimization:</b>
+          Databases use indexes to speed up data retrieval by creating efficient data structures for 
+          quick lookups.<br>
+          Performance optimization involves techniques like normalization, denormalization and caching to 
+          enhance database efficiency.
+          <br><br>
+          <b>Scalability:</b>
+          Databases need to scale to accommodate growing amounts of data and increased demand.<br>
+          Scalability can be achieved through vertical scaling (adding more resources to a single server) 
+          or horizontal scaling (adding more servers).
+          <br><br>
+          <b>Backup and Recovery:</b>
+          Regular backups are essential to prevent data loss in case of hardware failure, accidental 
+          deletions or other issues.<br>
+          Recovery mechanisms help restore databases to a consistent state after a failure.
+          <br><br>
+          <b>Data Security:</b>
+          Databases implement security measures to control access to data, ensuring that only authorized 
+          users can view or modify information.<br>
+          Encryption and authentication mechanisms enhance data security.
+          <br><br>
+          Databases play a crucial role in various applications, from small-scale systems to large 
+          enterprise solutions. They provide a structured and efficient way to manage and organize data, 
+          supporting the functionality of countless software applications and services.</p>
+        <br>
+        <h3>Types of database</h3>
+        <p><b>Relational Databases (RDBMS):</b><br>
+          Organize data into tables with rows and columns.<br>
+          Enforce relationships between tables.<br>
+          Examples: MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.
+          <br><br>
+          <b>NoSQL Databases:</b><br>
+          Non-relational databases offering flexibility in handling unstructured or semi-structured data.<br>
+          Designed for flexibility and scalability.<br>
+          Do not rely on a fixed schema.<br>
+          Suitable for dynamic or evolving data requirements.<br>
+          Examples: MongoDB, Cassandra, Couchbase, Redis
+          <br><br>
+          <b>In-Memory Databases:</b><br>
+          Store data in the system's main memory (RAM) for faster access.
+          <br><br>
+          <b>Distributed Databases:</b><br>
+          Distribute data across multiple nodes or servers for improved scalability and fault tolerance.
+          <br><br>
+          <b>Document Databases:</b><br>
+          Store data in a semi-structured format using JSON or XML documents.<br>
+          Suitable for hierarchical data structures.<br>
+          Examples: MongoDB, Couchbase, Apache CouchDB.
+          <br><br>
+          <b>Key-Value Stores:</b><br>
+          Store data as a collection of key-value pairs.<br>
+          Provide fast access to values based on keys.<br>
+          Commonly used for caching and session management.<br>
+          Examples: Redis, Memcached, Amazon DynamoDB.
+          <br><br>
+          <b>Column-Family Stores:</b><br>
+          Store data in columns rather than rows.<br>
+          Enable efficient retrieval of subsets of columns.<br>
+          Well-suited for storing and querying large amounts of data.<br>
+          Examples: Apache Cassandra, HBase, Google Bigtable.
+          <br>Graph Databases:<br>
+          <b></b><br>
+          Store data in nodes, edges and properties to represent complex relationships between entities.<br>
+          Commonly used for social networks, recommendation engines and network analysis.<br>
+          Examples: Neo4j, Amazon Neptune, ArangoDB.
+          <br><br>
+          <b>Time-Series Databases:</b><br>
+          Specialize in storing and querying time-stamped data, such as sensor data, log files
+          and financial data.<br>
+          Optimized for efficient storage and retrieval of time-series data.<br>
+          Examples: InfluxDB, Prometheus, TimescaleDB.
+          <br><br>
+          Each type of database has its own strengths and weaknesses and the choice of database depends on 
+          factors such as data structure, scalability requirements, performance considerations and the specific 
+          use case of the application.
+        </p>
+        <br>
+        <h3>Buzzword Definitions</h3>
+        <table id="buzzwordDefinitions">
+          <thead id="buzzwordDefinitionsHead">
+            <tr>
+              <th>Buzzword</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Relational Databases</b></td>
+              <td><b>Relational databases</b> are a type of database management system (DBMS) that organizes and 
+                stores data in tables with predefined relationships between them. These databases follow 
+                the principles of relational algebra and are based on the relational model proposed by Edgar Codd. 
+                In a relational database, data is structured into tables, each consisting of rows and columns.
+                <br><br>
+                <u>Key characteristics of relational databases:</u>
+                <br>
+                <b>Tables:</b> Data is organized into tables, where each table represents a specific entity or 
+                concept. Each row in a table corresponds to a specific record and each column represents a 
+                particular attribute of the data.
+                <br><br>
+                <b>Relationships:</b> Tables can be related to each other using common fields, allowing for the 
+                establishment of relationships between different entities. This relational structure enables 
+                efficient data retrieval and maintenance.
+                <br><br>
+                <b>Constraints:</b> Relational databases enforce constraints to maintain data integrity, such as 
+                primary keys, foreign keys and unique constraints. These constraints ensure that the data remains 
+                accurate and consistent.
+                <br><br>
+                <b>SQL (Structured Query Language):</b> Relational databases use SQL as the standard language for 
+                querying and manipulating data. SQL allows users to perform operations like SELECT, INSERT, 
+                UPDATE and DELETE on the database.
+                <br><br>
+                Popular relational database management systems include MySQL, PostgreSQL, Oracle Database, 
+                Microsoft SQL Server and SQLite. Relational databases are widely used in various applications, 
+                ranging from business and finance to web development, due to their structured and efficient 
+                data management capabilities.</td>
+            </tr>
+            <tr>
+              <td><b>SQL - Structured Query Language</b></td>
+              <td><b>SQL or Structured Query Language,</b> is a standardized programming language designed for managing 
+                and manipulating relational databases. It serves as a means of communication between a user or 
+                application and a relational database management system (RDBMS). SQL allows users to interact 
+                with databases by defining, querying, updating and managing the data stored within them.
+                <br><br>
+                <u>Key features of SQL:</u>
+                <br>
+                <b>Data Querying:</b> SQL enables users to retrieve specific data from a database using the SELECT 
+                statement. Queries can involve filtering, sorting and grouping data to meet specific requirements.
+                <br><br>
+                <b>Data Manipulation:</b> SQL provides statements such as INSERT, UPDATE and DELETE, allowing 
+                users to add, modify or remove data from a database.
+                <br><br>
+                <b>Data Definition:</b> SQL includes commands like CREATE, ALTER and DROP to define and modify 
+                the structure of database objects, such as tables, indexes and views.
+                <br><br>
+                <b>Data Control:</b> SQL supports commands for managing user permissions and access control, 
+                ensuring data security and integrity.
+                <br><br>
+                SQL is used with various relational database management systems, including MySQL, PostgreSQL, 
+                Microsoft SQL Server, Oracle Database and SQLite. Despite some variations in syntax among 
+                different database systems, SQL's core concepts and functionality remain consistent, making it a 
+                widely adopted and essential language for working with relational databases.</td>
+            </tr>
+            <tr>
+              <td><b>ACID (Atomicity, Consistency, Isolation, Durability)</b></td>
+              <td>ACID, which stands for Atomicity, Consistency, Isolation and Durability, is a set of properties 
+                that ensure the reliability and integrity of transactions in a database management system (DBMS). 
+                These principles are fundamental in maintaining the accuracy and consistency of data during 
+                database operations.
+                <br><br>
+                <b>Atomicity:</b> This property ensures that a transaction is treated as a single, indivisible 
+                unit. Either all the changes made by the transaction are committed to the database or none of 
+                them are. If any part of the transaction fails, the entire transaction is rolled back, leaving 
+                the database in its original state.
+                <br><br>
+                <b>Consistency:</b> Consistency ensures that a transaction brings the database from one valid 
+                state to another. The database must adhere to predefined integrity constraints and if a 
+                transaction violates these constraints, it is rolled back to maintain consistency.
+                <br><br>
+                <b>Isolation:</b> Isolation ensures that the execution of one transaction is isolated from the 
+                execution of other transactions. Each transaction should appear as if it is executed in isolation, 
+                regardless of concurrent transactions. This prevents interference or conflicts between transactions.
+                <br><br>
+                <b>Durability:</b> Durability guarantees that once a transaction is committed and the changes 
+                are saved to the database, they will persist, even in the event of system failures. The changes 
+                become permanent and are not lost, providing a reliable and durable state for the database.
+                <br><br>
+                ACID properties are crucial for maintaining the integrity and reliability of database transactions, 
+                especially in scenarios where multiple transactions may be executed concurrently. These properties 
+                help ensure that database operations are robust and that the data remains accurate and consistent 
+                over time.</td>
+            </tr>
+            <tr>
+              <td><b>NoSQL Databases</b></td>
+              <td>NoSQL databases, often referred to as "Not Only SQL," are a category of database management 
+                systems that provide a flexible and non-relational approach to data storage and retrieval. 
+                Unlike traditional relational databases, NoSQL databases do not rely on a fixed schema with 
+                predefined tables and relationships. Instead, they offer a more dynamic and scalable model, 
+                making them suitable for handling large volumes of unstructured or semi-structured data.
+                <br><br>
+                <u>Key characteristics of NoSQL databases:</u>
+                <br>
+                <b>Schema-less:</b> NoSQL databases are schema-less or schema-flexible, allowing for dynamic and 
+                on-the-fly changes to the data model without requiring a predefined schema. This flexibility is 
+                particularly useful in handling evolving and diverse data types.
+                <br><br>
+                <b>Scalability:</b> NoSQL databases are designed to scale horizontally, allowing them to handle large 
+                amounts of data and high traffic loads across multiple servers or nodes. This makes them 
+                well-suited for distributed and parallel processing.
+                <br><br>
+                <b>Variety of Data Models:</b> NoSQL databases support various data models, including document-oriented 
+                (e.g., MongoDB), key-value pairs (e.g., Redis), column-family (e.g., Apache Cassandra) and 
+                graph-based (e.g., Neo4j). Each data model is optimized for specific types of applications and 
+                data structures.
+                <br><br>
+                <b>High Performance:</b> NoSQL databases often prioritize performance and horizontal scalability, making 
+                them suitable for use cases where rapid data retrieval and processing are critical.
+                <br><br>
+                <b>Non-relational:</b> NoSQL databases do not adhere to the traditional relational model with structured 
+                tables and predefined relationships. This allows for more flexibility in handling complex and 
+                dynamic data structures.
+                <br><br>
+                NoSQL databases are commonly used in scenarios where traditional relational databases may face 
+                limitations, such as handling large-scale distributed systems, real-time data processing and 
+                applications with constantly changing data models. They are well-suited for use in web applications, 
+                big data analytics and other scenarios where flexibility and scalability are paramount.</td>
+            </tr>
+            <tr>
+              <td><b>Graph databases</b></td>
+              <td>Graph databases are a type of NoSQL database that organizes and represents data using a 
+                graph structure. In a graph database, data is modeled as nodes, edges and properties, 
+                allowing for the representation and storage of complex relationships between entities. 
+                This makes graph databases particularly well-suited for scenarios where relationships between 
+                data points are crucial and need to be efficiently queried.
+                <br><br>
+                <u>Key concepts in graph databases:</u>
+                <br>
+                <b>Nodes:</b> Nodes represent entities in the graph, such as people, places or things. Each node can 
+                have properties that define attributes of the entity.
+                <br><br>
+                <b>Edges:</b> Edges (also known as relationships or links) define connections between nodes, representing 
+                the relationships between entities. Edges can also have properties to capture additional information 
+                about the relationship.
+                <br><br>
+                <b>Properties:</b> Nodes and edges can have associated properties, which are key-value pairs providing 
+                details or attributes about the entities or relationships.
+                <br><br>
+                Graph databases excel in scenarios where the relationships between data points are as important 
+                as the data itself. Common use cases include social networks, fraud detection, recommendation 
+                engines, network analysis and any application that involves navigating complex relationships.
+                <br><br>
+                Popular graph databases include Neo4j, Amazon Neptune and ArangoDB. These databases provide 
+                efficient and expressive query languages for traversing and querying the graph structure, making 
+                it easier to retrieve and analyze data based on the relationships between entities.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <center>&copy; 2023 LMU Students.</center>
+    </footer>
+  </body>
+</html>

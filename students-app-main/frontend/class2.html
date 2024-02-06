@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="classes.css" />
+    <script src="./my-class.js"></script>
+  </head>
+  <body>
+    <header>
+      <a title="Home page" href="index.html" class="left-icon">🏠</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="curriculumVitae.html">My Curriculum vitae</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="my-class-content.html">My Class content</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2 style="color: #b8ec9c">About me</h2>
+        <img src="pictures/f46fc4b6.jpg" alt="Porträt" style="height: 180px; float: right"> 
+        <!-- Orner muss in dem frontend Ordner sein und nicht als extra Ordner -->
+        <p>I´m Nina, 22 years old and study "Art and Multimedia" in my first semster at LMU Munich.</p>
+        <p>In my free time I dance with the Perchalla carnival company.</p>
+        <p>I also do volunteer work, I look after young people and teach them how to lead groups.
+        Aside from that I´m at UniKult and take care of the design there.</p>
+        <p>If you have any further questions, feel free to send me an E-Mail.</p>
+        <a href="mailto:nina_menzl@yahoo.de" style="color: #b8ec9c">nina_menzl@yahoo.de</a>
+      </aside>
+
+      <section>
+        <nav><i><a href="my-class-content.html" style="color: #6c875d" class="left-icon">🔙 My Class content</a></i></nav>
+        <h1>Second class: Platform Architecture and Infrastructure</h1>
+        <ul>
+          <li>Definitions</li>
+          <li>Client / Server architecture</li>
+          <li>Client / Server infrastructure</li>
+          <li>Buzzword definitions</li>
+        </ul>
+        <br>
+        <h3>Definitions</h3>
+        <img src="pictures/2.Definitions.png" alt="Definitions-Bild" style="height: 250px; float: right">
+        <p><b>Client / Server architecture</b></p>
+        <p>It is a computing model that describes the relationship between two types of devices or programs: 
+          clients and servers. <br>This architecture is widely used in computer networks and distributed systems. 
+        </p>
+        <br>
+        <p><b>Client / Server infrastructure</b></p>
+        <p>The client-server architecture relies on a complex infrastructure to enable communication between 
+          clients and servers. <br>This infrastructure includes various components and technologies that support 
+          the functioning of the architecture.
+        </p>
+        <br>
+        <h3>Client / Server architecture</h3>
+        <img src="pictures/2.Client_Server Architecture.png" alt="CSa-Bild" style="height: 190px; float: right">
+        <p>Client/Server architecture is a computing model that divides software applications into two distinct 
+          roles or entities: the client and the server. This model is commonly used in networked systems where 
+          multiple devices need to communicate and collaborate.
+          <br><br>
+          <u>Key characteristics of Client/Server architecture:</u>
+          <br>
+          <b>Client:</b> The client is a user interface or application that interacts with the user. It requests services 
+          or resources from the server and handles the presentation and user input. Clients can be desktop 
+          applications, web browsers, mobile apps or any device or software that initiates communication.
+          <br><br>
+          <b>Server:</b> The server is a central system that provides resources, services or data to clients. It 
+          processes client requests, performs the required operations and returns the results to the clients. 
+          Servers can handle multiple client requests concurrently and manage shared resources.
+          <br><br>
+          <b>Communication:</b> Clients and servers communicate over a network, typically using protocols such as HTTP, 
+          TCP/IP or others. The client sends requests to the server and the server responds with the requested 
+          data or services.
+          <br><br>
+          <b>Decentralized Processing:</b> In a client/server architecture, processing tasks are distributed between the 
+          client and server. The server typically handles resource-intensive operations, data storage and 
+          business logic, while the client manages the user interface and user interactions.
+          <br><br>
+          <b>Scalability:</b> Client/Server architecture allows for scalability, as additional clients can connect to the 
+          server without affecting the overall structure. Scaling can involve increasing server capacity or 
+          distributing services across multiple servers.
+          <br><br>
+          Examples of client/server applications include web browsers (clients) interacting with web servers, 
+          email clients fetching messages from email servers and database clients querying data from database 
+          servers. This architecture provides a modular and efficient approach to designing distributed systems,
+          allowing for better resource management, flexibility and ease of maintenance.</p>
+        <img src="pictures/2.Invastigation on client_server architecture.png" alt="IoCSa-Bild" style="height: 350px;">
+        <br><br>
+        <h3>Client / Server infrastructure</h3>
+        <img src="pictures/2.Client_Server Infrastrucutre.png" alt="CSi-Bild" style="height: 350px; float: right">
+        <p>Client/Server infrastructure refers to a network architecture in which computing resources and tasks 
+          are divided between client devices and server systems. This infrastructure model enables efficient 
+          sharing of resources, centralized management and distributed processing in a networked environment.
+          <br><br>
+          <u>Key components and characteristics of Client/Server infrastructure:</u>
+          <br>
+          <b>Clients:</b> These are end-user devices, such as computers, laptops, tablets or smartphones, that 
+          interact with the user and initiate requests for services or resources. Clients typically run 
+          applications and user interfaces, handling presentation and user input.
+          <br><br>
+          <b>Servers:</b> Servers are powerful computers or systems that provide services, resources or data to 
+          clients. They perform processing, data storage and manage shared resources. Servers respond to client 
+          requests, execute requested operations and send results back to the clients.
+          <br><br>
+          <b>Network:</b> The communication between clients and servers occurs over a network, which can be a 
+          local area network (LAN), a wide area network (WAN) or the internet. Protocols such as TCP/IP, HTTP 
+          or others facilitate the exchange of data between clients and servers.
+          <br><br>
+          <b>Decentralized Processing:</b> In a Client/Server infrastructure, processing tasks are distributed 
+          between clients and servers based on their capabilities. Clients handle user interactions and 
+          presentation, while servers manage resource-intensive operations and data processing.
+          <br><br>
+          <b>Scalability:</b> Client/Server infrastructure is scalable, allowing for the addition of more clients 
+          without significantly affecting the overall system. Scaling can also involve increasing server capacity, 
+          distributing services across multiple servers or introducing load balancing.
+          <br><br>
+          Examples of Client/Server infrastructure implementations include web-based applications, where web 
+          browsers (clients) interact with web servers; email systems, where email clients communicate with 
+          email servers; and database systems, where clients query data from database servers.
+          <br><br>
+          This architecture provides a modular and efficient framework for designing and managing networked 
+          systems, facilitating collaboration, resource sharing and centralized control.</p>
+        <br>
+        <h3>Buzzword definitions</h3>
+        <table id="buzzwordDefinitions">
+          <thead id="buzzwordDefinitionsHead">
+            <tr>
+              <th>Buzzword</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Hypertext Transfer Protocol (HTTP)</b></td>
+              <td>It is a protocol used for transferring hypertext (= is a system that allows documents to contain 
+                links to other documents, enabling non -linear navigation. It is the the fondation of the 
+                World Wide Web, where you can click on hyperlinks to access related information across different 
+                web pages.) requests and information on the World Wide Web (www). It governs how web browsers and 
+                servers communicate, enabling and display of web content</td>
+            </tr>
+            <tr>
+              <td><b>TLS (Transport Layer Security)</b></td>
+              <td>It  is a cryptographic protocol designed to provide secure communication over a computer network. 
+                It ensures the privacy and integrity of data exchanged between applications by encrypting the 
+                information transmitted between them. TLS is commonly used to secure web connections, such as 
+                those between a web browser and a website, to protect sensitive information like login credentials 
+                and financial transactions.</td>
+            </tr>
+            <tr>
+              <td><b>DNS (Domain Name System)</b></td>
+              <td>It is a hierarchical and decentralized system that translates human-readable domain names into 
+                numerical IP addresses. Computers and network devices communicate using IP addresses, but domain 
+                names, like www.example.com, are easier for humans to remember. DNS acts as a distributed database, 
+                converting domain names into IP addresses and vice versa.<br>
+                DNS plays a critical role in the functionality of the internet by facilitating the translation of 
+                human-readable domain names into the numerical IP addresses required for communication between 
+                devices. It is an essential component for accessing websites, sending emails and various other 
+                internet-based services.</td>
+            </tr>
+            <tr>
+              <td><b>HTML (Hypertext Markup Language)</b></td>
+              <td>It is the standard markup language for creating and designing web pages. It is the backbone 
+                of most web content and provides a structure for documents by using a system of tags and 
+                attributes. These tags define elements such as headings, paragraphs, links, images and other 
+                components of a webpage. HTML allows web browsers to interpret and display content in a readable 
+                format, enabling users to access and navigate websites seamlessly.</td>
+            </tr>
+            <tr>
+              <td><b>CSS (Cascading Style Sheets)</b></td>
+              <td>It is a style sheet language used in web development to describe the presentation and layout 
+                of HTML or XML documents. CSS enables developers to control the appearance of web pages, including 
+                the styling of elements such as text, fonts, colors, spacing and positioning.<br>
+                CSS is an essential part of modern web development, allowing developers to separate the structure 
+                (HTML) and presentation (CSS) of a web page. It provides flexibility, maintainability and 
+                consistency in designing visually appealing and responsive websites.</td>
+            </tr>
+            <tr>
+              <td><b>JavaScript</b></td>
+              <td>It is a high-level, versatile programming language primarily used for adding interactivity 
+                and dynamic behavior to websites. It is commonly employed to manipulate the content of web pages, 
+                control browser behavior and enable client-side scripting. JavaScript is executed in web browsers, 
+                allowing developers to create responsive and interactive user interfaces. It can be integrated 
+                with HTML and CSS to build feature-rich web applications. JavaScript is also used outside of 
+                browsers, such as in server-side development with platforms like Node.js.</td>
+            </tr>
+            <tr>
+              <td><b>Web Servers</b></td>
+              <td>it is software or hardware that stores, processes and delivers web pages to users over the 
+                internet. It responds to requests from web browsers by sending the requested files, typically 
+                HTML documents, along with other resources like images, stylesheets and scripts. Web servers 
+                use protocols like HTTP (Hypertext Transfer Protocol) or its secure variant, HTTPS, to 
+                communicate with clients (web browsers).
+                <br>
+                Common web server software includes Apache, Nginx, Microsoft Internet Information Services (IIS) 
+                and others. These servers handle incoming requests, process them and send back the appropriate 
+                responses, forming the backbone of how information is exchanged on the World Wide Web.</td>
+            </tr>
+            <tr>
+              <td><b>Databases</b></td>
+              <td>It is a structured collection of data that is organized and stored in a way that allows 
+                efficient retrieval, management and modification. It acts as a centralized repository for 
+                storing and managing information, making it easier to organize, query and analyze data. 
+                Databases use a systematic approach, such as tables, rows and columns, to organize and represent 
+                data in a structured format.
+                <br>
+                There are different types of databases, including relational databases (like MySQL, PostgreSQL,
+                and Oracle), NoSQL databases (such as MongoDB and Cassandra) and others, each with its own 
+                characteristics and use cases. Databases are widely used in various applications, ranging from 
+                simple data storage to complex business systems and web applications.</td>
+            </tr>
+            <tr>
+              <td><b>Programming Languages</b></td>
+              <td>Programming languages are formal systems used to instruct computers and define the instructions 
+                that a computer must execute. They consist of a set of rules and syntax that developers use to 
+                write code, which is then translated into machine-readable instructions for the computer to execute.
+                <br>
+                Programming languages serve as a medium for humans to communicate with computers, allowing them 
+                to create software, applications and other computational solutions. Examples of programming 
+                languages include Python, Java, C++, JavaScript and many others, each designed for specific 
+                purposes and with different levels of abstraction and functionality. These languages enable 
+                developers to express algorithms, logic and data manipulations to create a wide range of 
+                software applications.</td>
+            </tr>
+            <tr>
+              <td><b>IP (Internet Protocol)</b></td>
+              <td>
+                IP or Internet Protocol, is a set of rules that govern how data packets should be sent, 
+                received and routed across networks, including the internet. It is a fundamental protocol 
+                of the Internet Protocol suite and is responsible for addressing and routing packets so that 
+                they can travel across different networks and reach their intended destination.
+                <br>
+                IP provides a unique address, called an IP address, to each device connected to a network, 
+                allowing for the identification and communication between devices. There are two main versions 
+                of IP: IPv4 (Internet Protocol version 4) and IPv6 (Internet Protocol version 6). IPv4 addresses 
+                are composed of 32 bits, while IPv6 uses 128-bit addresses, providing a much larger address 
+                space to accommodate the growing number of devices connected to the internet.</td>
+            </tr>
+            <tr>
+              <td><b>Routers</b></td>
+              <td>
+                Routers are network devices that operate at the network layer (Layer 3) of the OSI (Open Systems 
+                Interconnection) model. Their primary function is to forward data packets between different 
+                computer networks, making decisions based on the destination IP addresses of the packets. 
+                Routers play a crucial role in directing traffic on the internet and other networks, ensuring 
+                that data reaches its intended destination efficiently.
+                <br>
+                These devices maintain routing tables, which contain information about the available paths and 
+                network topology. Routers use this information to determine the best path for data packets to 
+                reach their destination. In addition to packet forwarding, routers can perform other functions, 
+                such as network address translation (NAT), firewalling and providing security features. 
+                They play a key role in connecting different segments of a network and facilitating communication 
+                between devices across diverse networks.</td>
+            </tr>
+            <tr>
+              <td><b>Ethernet cables</b></td>
+              <td>
+                Ethernet cables are a type of twisted pair cables used for wired networking to connect devices 
+                within a local area network (LAN). They follow the Ethernet standard, which specifies the physical 
+                and data link layer protocols for communication over a network. Ethernet cables typically have 
+                four pairs of twisted copper wires and they come in different categories, such as Cat5e, Cat6, 
+                Cat6a and Cat7, each with varying levels of performance and capabilities.
+                <br>
+                These cables are commonly used to connect devices like computers, routers, switches and other 
+                networked equipment. They facilitate the transmission of data through electrical signals and 
+                the twisted pair configuration helps reduce electromagnetic interference, allowing for reliable 
+                and high-speed data transmission. Ethernet cables are a fundamental component in wired networking, 
+                providing a physical medium for data exchange in various environments.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <center>&copy; 2023 LMU Students.</center>
+    </footer>
+  </body>
+</html>

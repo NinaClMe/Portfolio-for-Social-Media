@@ -1,0 +1,23 @@
+#classContentTable {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #classContentHead {
+    background-color: #f0f0f8;
+  }
+
+  th{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #f7f7ff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }

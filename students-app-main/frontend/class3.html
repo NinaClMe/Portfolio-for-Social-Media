@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./classes.css" />
+    <script src="./my-class.js"></script>
+  </head>
+  <body>
+    <header>
+      <a title="Home page" href="index.html" class="left-icon">🏠</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="curriculumVitae.html">My Curriculum vitae</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="my-class-content.html">My Class content</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2 style="color: #b8ec9c">About me</h2>
+        <img src="pictures/f46fc4b6.jpg" alt="Porträt" style="height: 180px; float: right"> 
+        <!-- Orner muss in dem frontend Ordner sein und nicht als extra Ordner -->
+        <p>I´m Nina, 22 years old and study "Art and Multimedia" in my first semster at LMU Munich.</p>
+        <p>In my free time I dance with the Perchalla carnival company.</p>
+        <p>I also do volunteer work, I look after young people and teach them how to lead groups.
+        Aside from that I´m at UniKult and take care of the design there.</p>
+        <p>If you have any further questions, feel free to send me an E-Mail.</p>
+        <a href="mailto:nina_menzl@yahoo.de" style="color: #b8ec9c">nina_menzl@yahoo.de</a>
+      </aside>
+
+      <section>
+        <nav><i><a href="my-class-content.html" style="color: #6c875d" class="left-icon">🔙 My Class content</a></i></nav>
+        <h1>Third class: Frontend Development</h1>
+        <ul>
+          <li>Frontend development definitions</li>
+          <li>Good UI/UX</li>
+          <li>Key Technologies (web development)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        <br>
+        <h3>Frontend development definitions</h3>
+        <p>Frontend development, often simply referred to as "front-end," is a discipline in <b>web</b> and <br>
+          <b>software</b> development that focuses on creating the user interface and user experience (UI/UX) <br> 
+          of a <b>website</b> or <b>application.</b> The primary goal of frontend development is to ensure that the application <br>
+          or website is <b>visually appealing, responsive and user-friendly.</b> Frontend developers work on <br> 
+          the client side of web development, which means they deal with what users see and interact <br>
+          with in their browsers or on their devices.
+        </p>
+        <br>
+        <h3>Good UI/UX</h3>
+        <p>A good user interface (UI) refers to the <b>visual and interactive aspects of a product,</b> whether <br> 
+          it's a website, application or any other software. A UI is considered good when it effectively <br>
+          presents information and functionality to the user in an aesthetically pleasing and user-friendly manner. <br><br> 
+          User experience encompasses the broader, holistic experience a user has with a product, <br>
+          including their emotional and practical interactions. A good user experience focuses on making <br>
+          the <b>entire interaction</b> as positive and efficient as possible. It includes the UI but extends beyond it.
+          </p>
+        <br>
+        <h3>Key Technologies (web development)</h3>
+        <p><u>Web pages are composed by:</u></p>
+        <ol>
+          <li>HTML (Hypertext Markup Language) for structuring content</li>
+          <li>CSS (Cascading Style Sheets) for styling and layout</li>
+          <li>JavaScript for adding interactivity</li>
+        </ol>
+        <br>
+        <h3>HTML</h3>
+        <p>HTML or Hypertext Markup Language, is the standard markup language used to create and structure 
+          content on the World Wide Web. It provides a set of elements or tags that are used to define the 
+          structure of a web page, including headings, paragraphs, links, images, tables, forms and other elements.
+          <br><br>
+          <u>Key features and concepts of HTML:</u>
+          <br>
+          <b>Tags:</b> HTML uses tags to define elements within a document. Tags are enclosed in angle brackets (<>) and 
+          most have opening and closing tags to enclose content. For example, "p" and "/p" define the start and 
+          end of a paragraph, respectively.
+          <br><br>
+          <b>Attributes:</b> HTML elements can have attributes that provide additional information about the element. 
+          Attributes are included within the opening tag and typically consist of a name and a value. 
+          For example, "img src="image.jpg" alt="Description"" includes the src and alt attributes for an image.
+          <br><br>
+          <b>Document Structure:</b> HTML documents have a specific structure, including a "head" section for metadata 
+          (title, links to stylesheets, etc.) and a "body" section for the main content of the document.
+          <br><br>
+          <b>Hyperlinks:</b> HTML allows the creation of hyperlinks using the "a" (anchor) element. Hyperlinks enable 
+          navigation between different web pages or resources.
+          <br><br>
+          <b>Lists:</b> HTML supports ordered lists ("ol"), unordered lists ("ul") and definition lists ("dl") to organize
+          content into lists.
+          <br><br>
+          <b>Forms:</b> HTML includes form elements ("form", "input", "select", etc.) for creating interactive input forms 
+          on web pages.
+          <br><br>
+          HTML is complemented by Cascading Style Sheets (CSS) and JavaScript, which are used for styling and 
+          adding interactivity to web pages, respectively. Together, HTML, CSS and JavaScript form the foundation 
+          of modern web development, allowing developers to create dynamic and visually appealing websites.</p>
+        <p><u>Helpful Web-Sites:</u></p>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" style="color: #6c875d;"><b>HTML: HyperText Markup Language</b></a><br>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" style="color: #6c875d;"><b>HTML basics</b></a>
+        <a href="https://www.youtube.com/watch?v=salY_Sm6mv4" style="color: #6c875d;"><b>HTML in 5 min (YouTube Video)</b></a>
+        <br><br>
+        <h3>CSS</h3>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used in web development to describe the 
+          presentation and layout of HTML or XML documents. CSS enables developers to control the appearance of 
+          web pages, including the styling of elements such as text, fonts, colors, spacing and positioning.
+          <br><br>
+          <u>Key features and concepts of CSS:</u>
+          <br>
+          <b>Selectors:</b> CSS uses selectors to target HTML elements within a document. Selectors can be based on 
+          element types, classes, IDs, attributes or other criteria.
+          <br><br>
+          <b>Properties:</b> Properties define the visual aspects of HTML elements, such as color, font size, margin, 
+          padding and more. Each property has a corresponding value that determines the specific styling.
+          <br><br>
+          <b>Declaration Blocks:</b> Declarations consist of property-value pairs and are grouped within curly 
+          braces to form a declaration block. Multiple declaration blocks can be combined to apply styles 
+          to different selectors.
+          <br><br>
+          <b>Cascading:</b> The term "cascading" in CSS refers to the process of combining styles from different 
+          sources, including user styles, author styles and browser defaults. The styles are applied based 
+          on specificity and order of precedence.
+          <br><br>
+          <b>External, Internal and Inline Styles:</b> CSS can be applied externally through a separate stylesheet 
+          file linked to the HTML document, internally within the HTML document using a "style" element or 
+          inline directly within HTML tags using the style attribute.
+          <br><br>
+          CSS is an essential part of modern web development, allowing developers to separate the structure (HTML) and presentation (CSS) of a web page. It provides flexibility, maintainability and consistency in designing visually appealing and responsive websites.</p>
+        <p><u>Helpful Web-Sites:</u></p>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" style="color: #6c875d;"><b>CSS basics</b></a>
+      </section>
+    </main>
+
+    <footer>
+      <center>&copy; 2023 LMU Students.</center>
+    </footer>
+  </body>
+</html>

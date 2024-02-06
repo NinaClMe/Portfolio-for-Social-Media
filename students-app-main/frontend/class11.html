@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./classes.css" />
+    <script src="./my-class.js"></script>
+  </head>
+  <body>
+    <header>
+      <a title="Home page" href="index.html" class="left-icon">🏠</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="curriculumVitae.html">My Curriculum vitae</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="my-class-content.html">My Class content</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h2 style="color: #b8ec9c">About me</h2>
+        <img src="pictures/f46fc4b6.jpg" alt="Porträt" style="height: 180px; float: right"> 
+        <!-- Orner muss in dem frontend Ordner sein und nicht als extra Ordner -->
+        <p>I´m Nina, 22 years old and study "Art and Multimedia" in my first semster at LMU Munich.</p>
+        <p>In my free time I dance with the Perchalla carnival company.</p>
+        <p>I also do volunteer work, I look after young people and teach them how to lead groups.
+        Aside from that I´m at UniKult and take care of the design there.</p>
+        <p>If you have any further questions, feel free to send me an E-Mail.</p>
+        <a href="mailto:nina_menzl@yahoo.de" style="color: #b8ec9c">nina_menzl@yahoo.de</a>
+      </aside>
+
+      <section>
+        <nav><i><a href="my-class-content.html" style="color: #6c875d" class="left-icon">🔙 My Class content</a></i></nav>
+        <h1>Eleventh class: Full web application (study case)</h1>
+        <ul>
+          <li>Version Control System</li>
+          <li>GIT/GitHub</li>
+          <li>Students app study case</li>
+          <li>Javascript fetch method</li>
+        </ul>
+        <h3>Version Control System</h3>
+        <p><b>A Version Control System (VCS)</b> is a software tool that helps manage changes to source code or any 
+          set of files over time. It is commonly used in collaborative software development to track and 
+          coordinate changes made by multiple contributors to a project.
+        </p>
+        <p>It allows multiple developers to collaborate on a project by providing mechanisms 
+          for storing, retrieving and comparing different versions of files. VCS helps teams to track changes, 
+          maintain a history of revisions, resolve conflicts and revert to previous versions if needed. 
+          It ensures consistency and integrity in code development and is essential for maintaining code
+          quality and project management in software development. <br>
+          Examples of VCS include Git, Subversion (SVN), Mercurial and Perforce.
+        </p>
+        <br>
+        <h3>GIT/GitHub</h3>
+        <p><b>Git:</b> is a distributed version control system (VCS) that allows multiple developers to collaborate 
+          on a project. <br>
+          It is used for tracking changes in source code during software development. Developed by Linus Torvalds 
+          in 2005, Git allows multiple developers to collaborate on a project by managing revisions, 
+          tracking history and facilitating teamwork through features like branching, merging and versioning. 
+          It provides a decentralized workflow, enabling developers to work offline and synchronize changes with 
+          remote repositories. Git is widely used in software development due to its speed, flexibility and 
+          robustness.
+        <br><br>
+          <b>GitHub:</b> is a web-based platform that serves as aq hosting service for Git repositories. 
+          It enhances the functionality of Git by adding a graphical interface, collaboration tools and 
+          additional features.<br>
+          It provides a collaborative environment for software developers to store, manage and share their 
+          code projects. In addition to version control features offered by Git, GitHub offers additional 
+          functionalities such as issue tracking, pull requests, code review, project management tools and 
+          integration with various development tools and services. GitHub facilitates collaboration among 
+          developers, teams and open-source communities, making it a popular platform for software development 
+          and project management.
+        </p>
+        <br>
+        <h3>Students app study case</h3>
+        <p>Everything you see here was created using the basic framework of the student app study case.</p>
+        <br>
+        <h3>Javascript fetch method</h3>
+        <p>The JavaScript Fetch API provides an interface for fetching resources (such as data or files) 
+          asynchronously over the network. It allows you to make HTTP requests to servers and retrieve 
+          data without having to reload the entire web page. The Fetch API uses Promises, making it easier 
+          to work with asynchronous operations and handle responses in a more intuitive way.
+          <br><br>
+          <u>Here's a basic explanation of how the Fetch method works:</u><br>
+          <b>Making a Request:</b> You use the Fetch method to initiate a request to a specified URL, 
+          optionally providing configuration options such as request headers, request method (GET, POST, etc.) 
+          and request body.
+          <br><br>
+          <b>Asynchronous Operation:</b> The Fetch method returns a Promise that resolves to a Response object 
+          representing the result of the request. This allows you to handle the response asynchronously using 
+          Promise-based syntax, such as using the then() method to process the response data.
+          <br><br>
+          <b>Handling the Response:</b> Once the request is complete, the Promise is resolved and you can 
+          access the response data using methods like json() (to parse the response as JSON), text() 
+          (to retrieve the response as plain text) or blob() (to retrieve the response as a binary object).
+          <br><br>
+          <b>Error Handling:</b> You can use the catch() method to handle errors that may occur during the 
+          request process, such as network errors or server-side errors. This allows you to gracefully handle 
+          failures and provide appropriate feedback to users.
+          <br><br>
+          Overall, the Fetch method provides a modern, powerful and flexible way to perform network requests 
+          in JavaScript, making it easier to build dynamic and interactive web applications.
+        </p>
+        <p><u>Helpful Web-Site:</u></p>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/fetch" style="color: #6c875d"><b>fetch() global function</b></a>
+      </section>
+    </main>
+
+    <footer>
+      <center>&copy; 2023 LMU Students.</center>
+    </footer>
+  </body>
+</html>
